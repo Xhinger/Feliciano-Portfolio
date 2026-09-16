@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: yellow;
+  z-index: 9999;
+  transform-origin: 0 50%;
+  animation: growProgress 1s linear;
+  animation-timeline: scroll();
+}
+
+@keyframes growProgress {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(50, 50, 50, 0.7);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px), saturate(150%);
+
+  margin: 20px 20%;
+  padding: 19px 2%;
+
+  border-radius: 60px;
+
+  width: 60%;
+
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+
+  font-size: 20px;
+  position: relative;
+}
+
+header a::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 4px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+header a:hover::after {
+  width: 100%;
+}
+
+header a:hover {
+  transform: scale(1.2);
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 50px;
+}
+
+.link li {
+  list-style: none;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+.left-content {
+  flex: 5;
+  min-height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: grey;
+  padding: 200px;
+
+  border-radius: 200px;
+
+  margin-left: 230px;
+  margin-top: 70px;
+
+  background-image: url("me.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.main {
+  min-height: 100dvh;
+
+  background: linear-gradient(180deg, white, lightgrey, darkgrey, black);
+}
+
+.right-content {
+  flex: 5;
+  min-height: 80dvh;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-info {
+  margin-right: 300px;
+  margin-top: 70px;
+}
+
+.profile-info h1 {
+  font-size: 40px;
+  line-height: 2;
+}
+
+.profile-info p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+
+  font-weight: 600;
+
+  background: linear-gradient(130deg, purple, blue, lightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  border: 1px solid black;
+
+  border-radius: 25px;
+  padding: 5px;
+
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 45%;
+}
+
+.btn {
+  display: flex;
+}
+
+.projects {
+  border: 1px solid black;
+
+  border-radius: 25px;
+  padding: 5px;
+
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 45%;
+}
+
+.projects a {
+  text-decoration: none;
+  font-size: 20px;
+
+  color: black;
+  position: relative;
+}
+
+.projects a::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.projects a:hover::after {
+  width: 100%;
+}
+
+.about a {
+  text-decoration: none;
+  color: black;
+
+  font-size: 20px;
+
+  position: relative;
+}
+
+.about a::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.about a:hover::after {
+  width: 100%;
+}
+
+.aboutme {
+  min-height: 50dvh;
+  border-top: 1px solid black;
+  background-color: black;
+
+  display: flex;
+
+  color: white;
+}
+
+.education {
+  flex: 5;
+  min-height: 80dvh;
+
+  margin: 100px 7%;
+}
+
+.experience {
+  flex: 5;
+  min-height: 80vh;
+
+  margin: 100px 7%;
+}
+
+.educ-info {
+  border-left: 1px solid white;
+  min-height: 70vh;
+
+  padding: 30px;
+  margin: 30px;
+
+  position: relative;
+}
+
+.info-1 {
+  position: absolute;
+  left: 20px;
+}
+
+.exper-info {
+  position: relative;
+  border-left: 1px solid white;
+  min-height: 70vh;
+
+  padding: 30px;
+  margin: 30px;
+}
+
+.educ-h1,
+.exper-h1 {
+  margin-left: 32px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li::marker {
+  font-size: 1.9rem;
+  color: blue;
+}
+
+.school {
+  margin-top: 45px;
+}
+
+.school h1,
+.school p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-2 {
+  position: absolute;
+  left: 20px;
+}
+
+.work-exper,
+.html,
+.css,
+.java {
+  margin-top: 45px;
+}
+
+.work-exper,
+.html,
+.css,
+.java {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exper-h1 {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.educ-h1 {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.info-1,
+.info-2 {
+  animation: slideInLeft 2s ease-in;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.profile-card {
+  animation: appear 1s ease-in;
+}
+
+.hi {
+  animation: appear 0.5s ease-in;
+}
+
+.name {
+  animation: appear 0.8s ease-in;
+}
+
+.skill {
+  animation: appear 1s ease-in;
+}
+
+.about,
+.projects {
+  animation: appear 1.2s ease-in;
+}
+
+.logo {
+  animation: appear 1.5s ease-in;
+}
