@@ -110,11 +110,6 @@ header {
   justify-content: flex-start;
 }
 
-.image {
-  display: flex;
-  justify-content: end;
-}
-
 .main {
   display: flex;
 }
@@ -297,9 +292,23 @@ header {
   object-fit: fill;
 }
 
+.image {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .Fb {
   height: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
+
+  margin-right: 20px;
+
+  transition: 0.3s;
+}
+
+.git {
+  height: 50px;
+  margin-top: 20px;
 
   margin-right: 40px;
 
