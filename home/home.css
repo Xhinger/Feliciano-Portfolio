@@ -74,7 +74,7 @@ header {
 
 .links a {
   text-decoration: none;
-  color: grey;
+  color: rgb(205, 201, 201);
 
   padding: 13px;
 
@@ -490,6 +490,18 @@ header {
   align-items: center;
 
   min-height: 100dvh;
+
+  background:
+    radial-gradient(
+      circle at 0% 50%,
+      rgba(128, 0, 128, 0.507),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 100% 50%,
+      rgba(0, 81, 128, 0.507),
+      transparent 30%
+    );
 }
 
 .main-content {
@@ -502,7 +514,9 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  background-color: rgba(255, 255, 255, 0.849);
+  background-color: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
 }
 
 .p {
@@ -545,11 +559,16 @@ header {
 }
 
 .card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+
   border: 1px solid rgba(128, 128, 128, 0.68);
   border-radius: 20px;
   padding: 35px;
-  padding-top: 40px;
+  padding-top: 0;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
   margin: 10px;
 
@@ -584,4 +603,15 @@ header {
   color: grey;
 
   font-family: Arial Rounded mt;
+}
+
+.web-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.logo {
+  height: 40px;
 }
