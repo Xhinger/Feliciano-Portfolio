@@ -478,8 +478,7 @@ header {
 
 .sec-2 {
   min-height: 100dvh;
-
-  background-color: rgb(237, 233, 225);
+  background-color: #f4f6fb;
 
   margin: 0;
 }
@@ -492,15 +491,16 @@ header {
   min-height: 100dvh;
 
   background:
-    radial-gradient(
-      circle at 0% 50%,
-      rgba(128, 0, 128, 0.507),
-      transparent 30%
-    ),
+    radial-gradient(circle at 0% 50%, rgba(168, 85, 247, 0.2), transparent 32%),
     radial-gradient(
       circle at 100% 50%,
-      rgba(0, 81, 128, 0.507),
-      transparent 30%
+      rgba(56, 189, 248, 0.2),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(236, 72, 153, 0.1),
+      transparent 35%
     );
 }
 
