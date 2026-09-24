@@ -1357,6 +1357,11 @@ footer {
   .about-fel {
     margin-bottom: 25px;
   }
+
+  .btn {
+    width: 100%;
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 1600px) {
