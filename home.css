@@ -909,7 +909,7 @@ header {
   display: flex;
   justify-content: start;
 
-  font-size: 17px;
+  font-size: 20px;
   margin-top: 10px;
 
   transition: 0.3s ease;
@@ -994,6 +994,47 @@ footer {
 }
 
 /* Responsive layouts */
+
+@media (max-width: 1286px) {
+  .project-b a {
+    width: 40%;
+  }
+
+  .project-a a {
+    width: 40%;
+  }
+
+  .project-p::after,
+  .project-p-b::after {
+    bottom: 65px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 1125px) {
+  .project-p::after,
+  .project-p-b::after {
+    bottom: 85px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 894px) {
+  .project-p::after,
+  .project-p-b::after {
+    bottom: 85px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 819px) {
+  .project-p::after,
+  .project-p-b::after {
+    bottom: 85px;
+    width: 30%;
+  }
+}
+
 @media (max-width: 1024px) {
   header {
     width: 92%;
@@ -1031,6 +1072,20 @@ footer {
     gap: 40px;
     padding-left: 6%;
     padding-right: 6%;
+  }
+
+  .project-p::after,
+  .project-p-b::after {
+    bottom: 85px;
+    width: 30%;
+  }
+
+  .project-b a {
+    width: 40%;
+  }
+
+  .project-a a {
+    width: 40%;
   }
 }
 
@@ -1236,7 +1291,7 @@ footer {
 
   .project-p::after,
   .project-p-b::after {
-    bottom: 0;
+    bottom: 55px;
   }
 
   .contactus {
@@ -1263,6 +1318,15 @@ footer {
   .footer-p a {
     margin-left: 0;
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .project-p::after,
+  .project-p-b::after {
+    bottom: 78px;
+
+    width: 30%;
   }
 }
 
@@ -1308,5 +1372,15 @@ footer {
   footer {
     padding-left: max(100px, calc((100vw - 1800px) / 2));
     padding-right: max(100px, calc((100vw - 1800px) / 2));
+  }
+}
+
+@media (max-width: 376px) {
+  .project-p::after {
+    bottom: 80px;
+  }
+
+  .project-p-b::after {
+    bottom: 100px;
   }
 }
