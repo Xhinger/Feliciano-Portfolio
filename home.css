@@ -10,9 +10,9 @@ html {
 
 .radial {
   background:
-    radial-gradient(circle 400px at 0% 0%, #3584e570, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #e535dc70, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #ad2cd456, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 }
 
 .intro {
@@ -164,9 +164,9 @@ header {
   font-size: 75px;
 
   background:
-    radial-gradient(circle at left, #3584e5ac, transparent 70%),
-    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
-    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #3099b3, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -197,7 +197,7 @@ header {
   font-family: Arial Rounded mt;
   font-weight: bolder;
 
-  color: #2c83bac0;
+  color: #2580b8dd;
   background-color: rgba(87, 85, 85, 0.183);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
@@ -252,12 +252,10 @@ header {
 
 .btn1 {
   text-decoration: none;
-  background: linear-gradient(
-    150deg,
-    rgba(0, 0, 255, 0.427),
-    rgba(121, 2, 185, 0.493),
-    rgba(128, 0, 128, 0.847)
-  );
+  background:
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 
   color: white;
   font-size: 20px;
@@ -277,7 +275,7 @@ header {
 }
 
 .btn1:hover {
-  box-shadow: 0 0 40px purple;
+  box-shadow: 0 0 40px #7c6cff;
   color: black;
 }
 
@@ -287,7 +285,7 @@ header {
   color: black;
   font-weight: 900;
 
-  border: 2px solid rgb(122, 0, 128);
+  border: 2px solid #43d9ff;
   font-size: 20px;
 
   font-family: Arial Rounded mt;
@@ -303,9 +301,9 @@ header {
 }
 
 .btn:hover {
-  background-color: purple;
+  background-color: #7c6cff;
   color: white;
-  box-shadow: 0 0 40px purple;
+  box-shadow: 0 0 40px #43d9ff;
 }
 
 .aside {
@@ -345,8 +343,8 @@ header {
 
 .pic:hover {
   transform: scale(1.04);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgb(60, 0, 128);
+  border: 1px solid #7c6cff;
+  box-shadow: 0 0 80px #7c6cff;
 
   object-fit: fill;
 }
@@ -432,9 +430,9 @@ header {
   bottom: 100%;
 
   background:
-    radial-gradient(circle at left, #3584e5ac, transparent 70%),
-    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
-    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 }
 
 .head1 {
@@ -479,15 +477,15 @@ header {
 
 .my-pic:hover {
   transform: scale(1.04);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgb(60, 0, 128);
+  border: 1px solid #7c6cff;
+  box-shadow: 0 0 80px #7c6cff;
 }
 
 .blue-col {
   background:
-    radial-gradient(circle at left, #3584e5ac, transparent 70%),
-    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
-    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -515,13 +513,9 @@ header {
   min-height: 100dvh;
 
   background:
-    radial-gradient(circle at 0% 50%, rgba(168, 85, 247, 0.2), transparent 32%),
-    radial-gradient(
-      circle at 100% 50%,
-      rgba(56, 189, 248, 0.2),
-      transparent 32%
-    ),
-    radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.1), transparent 35%);
+    radial-gradient(circle 400px at 0% 55%, #43d9ff8c, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7d6cff6f, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff8d, transparent 80%);
 }
 
 .back-design-2 {
@@ -534,27 +528,9 @@ header {
   min-height: 200dvh;
 
   background:
-    radial-gradient(circle at 0% 50%, rgba(168, 85, 247, 0.2), transparent 32%),
-    radial-gradient(
-      circle at 100% 50%,
-      rgba(56, 189, 248, 0.2),
-      transparent 32%
-    ),
-    radial-gradient(
-      circle at 50% 50%,
-      rgba(236, 72, 153, 0.1),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 0% 25%,
-      rgba(56, 191, 248, 0.231),
-      transparent 32%
-    ),
-    radial-gradient(
-      circle at 50% 100%,
-      rgba(72, 154, 236, 0.21),
-      transparent 35%
-    );
+    radial-gradient(circle 400px at 0% 50%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 50% 100%, #7d6cff90, transparent 80%),
+    radial-gradient(circle 400px at 90% 20%, #43d9ff, transparent 80%);
 }
 
 .main-content {
@@ -675,8 +651,8 @@ header {
 
 .card:hover {
   transform: scale(1.04);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 40px rgba(107, 0, 128, 0.71);
+  border: 1px solid #7c6cff;
+  box-shadow: 0 0 40px #7c6cff;
 }
 
 .card h1 {
@@ -687,9 +663,9 @@ header {
   transition: 0.3s ease;
 
   background:
-    radial-gradient(circle at left, #3584e5ac, transparent 70%),
-    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
-    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -784,9 +760,9 @@ header {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   background:
-    radial-gradient(circle at left, #3584e5ac, transparent 70%),
-    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
-    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -799,9 +775,9 @@ header {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   background:
-    radial-gradient(circle at left, #3584e5ac, transparent 70%),
-    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
-    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -964,6 +940,14 @@ header {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 50px;
   margin-bottom: 10px;
+
+  background:
+    radial-gradient(circle 400px at 0% 55%, #43d9ff8c, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7d6cff6f, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff8d, transparent 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about-fel p {
