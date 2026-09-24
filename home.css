@@ -47,8 +47,11 @@ header {
   text-decoration: none;
   color: white;
 
-  font-size: 20px;
-  font-family: Arial Rounded mt;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  letter-spacing: 3px;
+
   font-weight: 600;
 
   margin: 0 3%;
@@ -481,7 +484,13 @@ header {
 }
 
 .blue-col {
-  color: #3584e5ac;
+  background:
+    radial-gradient(circle at left, #3584e5ac, transparent 70%),
+    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
+    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .sec-2 {
@@ -663,7 +672,13 @@ header {
   letter-spacing: 1px;
   transition: 0.3s ease;
 
-  color: black;
+  background:
+    radial-gradient(circle at left, #3584e5ac, transparent 70%),
+    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
+    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card p {
@@ -754,12 +769,28 @@ header {
   font-size: 50px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
+  background:
+    radial-gradient(circle at left, #3584e5ac, transparent 70%),
+    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
+    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   margin-bottom: 30px;
 }
 
 .project-det-b h1 {
   font-size: 50px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  background:
+    radial-gradient(circle at left, #3584e5ac, transparent 70%),
+    radial-gradient(circle at center, #ad2cd4a0, transparent 120%),
+    radial-gradient(circle at right, #e535dcbc, transparent 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   margin-bottom: 30px;
 }
