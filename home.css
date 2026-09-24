@@ -1341,6 +1341,22 @@ footer {
     display: inline-block;
     max-width: 100%;
   }
+
+  .quick-nav a {
+    font-size: 17px;
+  }
+
+  .quick-link {
+    margin-bottom: 25px;
+  }
+
+  .contact-me img {
+    height: 18px;
+  }
+
+  .about-fel {
+    margin-bottom: 25px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -1382,5 +1398,17 @@ footer {
 
   .project-p-b::after {
     bottom: 100px;
+  }
+
+  .quick-nav a {
+    font-size: 17px;
+  }
+
+  .contact-me img {
+    height: 18px;
+  }
+
+  .about-fel {
+    margin-bottom: 25px;
   }
 }
