@@ -540,7 +540,21 @@ header {
       rgba(56, 189, 248, 0.2),
       transparent 32%
     ),
-    radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.1), transparent 35%);
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(236, 72, 153, 0.1),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 0% 25%,
+      rgba(56, 191, 248, 0.231),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(72, 154, 236, 0.21),
+      transparent 35%
+    );
 }
 
 .main-content {
