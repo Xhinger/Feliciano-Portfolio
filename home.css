@@ -11,7 +11,7 @@ html {
 .radial {
   background:
     radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 300px at 40% 50%, #7d6cffb3, transparent 80%),
     radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
 }
 
@@ -528,9 +528,9 @@ header {
   min-height: 200dvh;
 
   background:
-    radial-gradient(circle 400px at 0% 50%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 50% 100%, #7d6cff90, transparent 80%),
-    radial-gradient(circle 400px at 90% 20%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 0% 50%, #43d9ff9c, transparent 100%),
+    radial-gradient(circle 300px at 50% 100%, #7d6cff58, transparent 80%),
+    radial-gradient(circle 400px at 90% 20%, #43d9ff9c, transparent 80%);
 }
 
 .main-content {
@@ -652,7 +652,7 @@ header {
 .card:hover {
   transform: scale(1.04);
   border: 1px solid #7c6cff;
-  box-shadow: 0 0 40px #7c6cff;
+  box-shadow: 0 0 40px #7d6cffab;
 }
 
 .card h1 {
