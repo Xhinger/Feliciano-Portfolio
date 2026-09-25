@@ -1390,6 +1390,10 @@ footer {
 
     margin-bottom: 20px;
   }
+
+  .contactus {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 420px) {
