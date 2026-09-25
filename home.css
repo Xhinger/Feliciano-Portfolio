@@ -10,13 +10,12 @@ html {
 
 .radial {
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7d6cffb3, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #43d9ff6e, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7d6cff76, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #43d9ff6e, transparent 80%);
 }
 
 .intro {
-  background-color: #f4f6fb;
   min-height: 100dvh;
 }
 
@@ -141,7 +140,7 @@ header {
 
   font-family: Arial Rounded mt;
 
-  color: black;
+  color: white;
   font-weight: bolder;
   display: flex;
   justify-content: flex-start;
@@ -221,7 +220,7 @@ header {
 }
 
 .message {
-  color: rgb(87, 86, 86);
+  color: rgb(141, 140, 140);
   font-family: Arial Rounded mt;
   font-weight: bolder;
   letter-spacing: 0.5px;
@@ -282,7 +281,7 @@ header {
 .btn {
   background-color: transparent;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 900;
 
   border: 2px solid #43d9ff;
@@ -302,7 +301,7 @@ header {
 
 .btn:hover {
   background-color: #7c6cff;
-  color: white;
+  color: black;
   box-shadow: 0 0 40px #43d9ff;
 }
 
@@ -379,14 +378,13 @@ header {
 /*------------ABOUT ME PAGE-------------*/
 .aboutme {
   min-height: 100dvh;
-  background-color: #f4f6fb;
 }
 
 .radiant-back {
   min-height: 100dvh;
   background: radial-gradient(
-    circle 400px at 40% 45%,
-    #3584e52f,
+    circle 250px at 50% 55%,
+    #43d9ff48,
     transparent 100%
   );
 }
@@ -438,14 +436,14 @@ header {
 .head1 {
   font-size: 75px;
   margin-bottom: 40px;
-  color: black;
+  color: white;
 }
 
 .head2 {
   font-size: 22px;
   margin-bottom: 40px;
 
-  color: black;
+  color: white;
 }
 
 .info-me p {
@@ -454,6 +452,12 @@ header {
 
 .para-1 {
   margin-bottom: 20px;
+  font-size: 19px;
+}
+
+.para-2 {
+  font-size: 19px;
+  margin-top: 30px;
 }
 
 .info-me h1,
@@ -492,15 +496,13 @@ header {
 }
 
 .sec-2 {
-  min-height: 100dvh;
-  background-color: #f4f6fb;
+  min-height: 130dvh;
 
   margin: 0;
 }
 
 .sec-3 {
   min-height: 200dvh;
-  background-color: #f4f6fb;
 
   margin: 0;
 }
@@ -510,7 +512,7 @@ header {
   justify-content: center;
   align-items: center;
 
-  min-height: 100dvh;
+  min-height: 130dvh;
 
   background:
     radial-gradient(circle 400px at 0% 55%, #43d9ff8c, transparent 100%),
@@ -528,9 +530,9 @@ header {
   min-height: 200dvh;
 
   background:
-    radial-gradient(circle 400px at 0% 50%, #43d9ff9c, transparent 100%),
+    radial-gradient(circle 400px at 0% 50%, #43d9ff6e, transparent 100%),
     radial-gradient(circle 300px at 50% 100%, #7d6cff58, transparent 80%),
-    radial-gradient(circle 400px at 90% 20%, #43d9ff9c, transparent 80%);
+    radial-gradient(circle 400px at 90% 20%, #43d9ff6e, transparent 80%);
 }
 
 .main-content {
@@ -543,9 +545,9 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  background-color: rgba(255, 255, 255, 0.28);
-  backdrop-filter: blur(20px) saturate(150%);
-  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  background-color: rgba(80, 200, 220, 0.12);
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
 }
 
 .main-content-2 {
@@ -560,9 +562,9 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  background-color: rgba(255, 255, 255, 0.28);
-  backdrop-filter: blur(20px) saturate(150%);
-  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  background-color: rgba(80, 200, 220, 0.12);
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
 }
 
 .p {
@@ -587,12 +589,22 @@ header {
 }
 
 .content-2 h1 {
-  color: black;
+  color: white;
   font-size: 50px;
   margin-bottom: 13px;
 
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 2px;
+}
+
+.radial-felic {
+  background:
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #3099b3, transparent 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .content-2 p {
@@ -603,7 +615,7 @@ header {
 }
 
 .content h1 {
-  color: black;
+  color: white;
   font-size: 50px;
   margin-bottom: 24px;
 
@@ -611,9 +623,21 @@ header {
   letter-spacing: 1px;
 }
 
+.fukos {
+  background:
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #3099b3, transparent 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .content p {
   font-size: 17px;
   color: gray;
+
+  width: 45%;
 
   font-family: Arial Rounded mt;
 }
@@ -625,7 +649,7 @@ header {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.28);
+  background-color: rgba(20, 35, 55, 0.55);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
 
@@ -663,9 +687,9 @@ header {
   transition: 0.3s ease;
 
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 50%),
     radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 60%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -786,11 +810,13 @@ header {
 }
 
 .project-num {
+  color: gray;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .project-num-b {
+  color: gray;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -812,7 +838,7 @@ header {
   width: 8%;
   bottom: 65px;
 
-  background-color: gray;
+  background-color: #7c6cff;
 }
 
 .project-p-b {
@@ -833,30 +859,19 @@ header {
   width: 8%;
   bottom: 65px;
 
-  background-color: gray;
-}
-
-.project-p b::after {
-  position: absolute;
-  content: "";
-
-  left: 0px;
-  height: 4px;
-  width: 100%;
-  bottom: 65px;
-
-  background-color: gray;
+  background-color: #7c6cff;
 }
 
 .project-det a {
-  color: black;
+  color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   margin-top: 30px;
   font-size: 20px;
   text-decoration: none;
 
-  border: 1px solid black;
+  border: 1px solid #43d9ff;
+
   width: 25%;
   text-align: center;
 
@@ -865,35 +880,19 @@ header {
   padding: 10px;
 }
 
-.project-det a::after {
-  position: absolute;
-  content: "";
-
-  left: 7px;
-  bottom: 8px;
-  width: 0;
-  height: 2px;
-  background-color: black;
-  transition: width 0.3s ease;
-}
-
-.project-det a:hover::after {
-  width: 90%;
-}
-
 .project-det a:hover {
   transform: scale(1.09);
 }
 
 .project-det-b a {
-  color: black;
+  color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   margin-top: 30px;
   font-size: 20px;
   text-decoration: none;
 
-  border: 1px solid black;
+  border: 1px solid #43d9ff;
   width: 25%;
   text-align: center;
 
@@ -1479,4 +1478,8 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.black-color {
+  background-color: black;
 }
