@@ -926,7 +926,7 @@ header {
 }
 
 .contactus {
-  background-color: #f4f6fb;
+  background-color: #f4f6fb41;
   border-top: 1px solid rgba(128, 128, 128, 0.447);
 
   padding: 30px;
@@ -958,10 +958,13 @@ header {
 
 .about-fel p {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(134, 131, 131);
+  color: rgb(190, 184, 184);
+  font-size: 18px;
+  letter-spacing: 1.5px;
 }
 
 .quick-link h1 {
+  color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
@@ -975,7 +978,7 @@ header {
 
   transition: 0.3s ease;
 
-  color: gray;
+  color: rgb(190, 184, 184);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
@@ -989,12 +992,12 @@ header {
 
 .contact-me h1 {
   margin-bottom: 10px;
-  color: black;
+  color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .contact-me p {
-  color: gray;
+  color: rgb(190, 184, 184);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
@@ -1038,20 +1041,24 @@ footer {
 
   padding: 10px 10%;
 
-  background-color: #f4f6fb;
+  background-color: rgb(66, 65, 65);
+}
+
+footer p {
+  color: white;
 }
 
 .footer-p a {
   text-decoration: none;
 
   margin-left: 30px;
-  color: black;
+  color: white;
 
   transition: 0.3s ease;
 }
 
 .footer-p a:hover {
-  color: rgb(143, 140, 140);
+  color: white;
 }
 
 /* Responsive layouts */
