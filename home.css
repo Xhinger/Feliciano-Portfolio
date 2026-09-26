@@ -391,8 +391,8 @@ header {
 .radiant-back {
   min-height: 100dvh;
   background: radial-gradient(
-    circle 250px at 50% 55%,
-    #43d9ff48,
+    circle 250px at 0% 55%,
+    #43d9ff54,
     transparent 100%
   );
 }
