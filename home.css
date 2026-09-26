@@ -741,6 +741,24 @@ header {
   flex: 1;
 }
 
+.project-pic-1 {
+  background-color: yellow;
+  border-radius: 30px 0 30px 0;
+  background-image: url("Act4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: 0.3s ease;
+  flex: 1;
+}
+
+.project-pic-1:hover {
+  transform: scale(1.02);
+  border: 1px solid rgb(60, 0, 128);
+  box-shadow: 0 0 80px rgba(0, 81, 128, 0.626);
+}
+
 .project-pic:hover {
   transform: scale(1.02);
   border: 1px solid rgb(60, 0, 128);
@@ -756,6 +774,28 @@ header {
 
   flex: 1;
 }
+
+.project-pic-b-2 {
+  background-color: yellow;
+  background-color: yellow;
+  border-radius: 0 30px 0 30px;
+
+  background-image: url("Act5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: 0.3s ease;
+
+  flex: 1;
+}
+
+.project-pic-b-2:hover {
+  transform: scale(1.02);
+  border: 1px solid rgb(60, 0, 128);
+  box-shadow: 0 0 80px rgba(119, 0, 128, 0.591);
+}
+
 .project-pic-b:hover {
   transform: scale(1.02);
   border: 1px solid rgb(60, 0, 128);
