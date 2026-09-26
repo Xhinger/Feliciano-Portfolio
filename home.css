@@ -30,8 +30,9 @@ header {
   -webkit-backdrop-filter: blur(10px) saturate(150%);
 
   width: 80%;
-  padding: 20px;
+  padding: 15px;
   margin: 10px 10%;
+  margin-top: 20px;
   border-radius: 40px;
 
   animation: fromtop 1.5s ease;
@@ -926,7 +927,7 @@ header {
 }
 
 .contactus {
-  background-color: #f4f6fb41;
+  background: rgba(20, 20, 24, 0.92);
   border-top: 1px solid rgba(128, 128, 128, 0.447);
 
   padding: 30px;
@@ -978,12 +979,12 @@ header {
 
   transition: 0.3s ease;
 
-  color: rgb(190, 184, 184);
+  color: #ffffff;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .quick-nav a:hover {
-  color: black;
+  color: grey;
 }
 
 .about-fel p {
@@ -1041,18 +1042,18 @@ footer {
 
   padding: 10px 10%;
 
-  background-color: rgb(66, 65, 65);
+  background: #0d0d10;
 }
 
 footer p {
-  color: white;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .footer-p a {
   text-decoration: none;
 
   margin-left: 30px;
-  color: white;
+  color: rgba(255, 255, 255, 0.65);
 
   transition: 0.3s ease;
 }
