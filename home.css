@@ -1467,6 +1467,39 @@ footer p {
 }
 
 @media (max-width: 420px) {
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info h1,
+  .info p {
+    text-align: center;
+  }
+
+  .info-me {
+    text-align: center;
+  }
+
+  .info-me::after {
+    position: absolute;
+    content: "";
+    z-index: 1;
+
+    margin-bottom: 20px;
+
+    left: 0px;
+    height: 3px;
+    width: 100%;
+    bottom: 100%;
+
+    background:
+      radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+      radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
+      radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+  }
+
   .contain-a {
     align-items: flex-start;
     flex-direction: column;
@@ -1593,7 +1626,7 @@ footer p {
   .project-pic-1,
   .project-pic-b-2 {
     min-height: 180px;
-  } 
+  }
 }
 
 .black-color {
