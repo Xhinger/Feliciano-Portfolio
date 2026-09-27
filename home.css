@@ -1500,9 +1500,14 @@ footer p {
       radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
   }
 
+  .btn {
+    align-items: flex-end;
+  }
+
   .contain-a {
+    display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .btn1,
@@ -1528,7 +1533,6 @@ footer p {
   }
 
   .btn {
-    width: 100%;
     font-size: 13px;
   }
 
@@ -1544,6 +1548,28 @@ footer p {
   .project-pic-1,
   .project-pic-b-2 {
     min-height: 180px;
+  }
+
+  .p {
+    text-align: center;
+  }
+
+  .content p {
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-2 h1 {
+    text-align: center;
+  }
+
+  .content-2 p {
+    text-align: center;
   }
 }
 
@@ -1631,4 +1657,12 @@ footer p {
 
 .black-color {
   background-color: black;
+}
+
+@media (max-width: 290px) {
+  .contain-a {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
