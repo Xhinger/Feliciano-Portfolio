@@ -1571,6 +1571,11 @@ footer p {
   .content-2 p {
     text-align: center;
   }
+
+  footer {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1600px) {
