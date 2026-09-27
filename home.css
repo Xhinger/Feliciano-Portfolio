@@ -483,6 +483,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 
+  border: 2px solid #7c6cff;
+
   transition: 0.3s ease;
   border-radius: 20px;
 }
