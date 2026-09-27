@@ -1644,6 +1644,12 @@ footer p {
   }
 }
 
+@media (max-width: 352px) {
+  .address img {
+    margin-bottom: 16px;
+  }
+}
+
 @media (max-width: 392px) {
   header {
     display: flex;
