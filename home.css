@@ -444,8 +444,8 @@ header {
 
   background:
     radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 50% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 300px at 90% 0%, #c46cffe1, transparent 80%);
 }
 
 .head1 {
@@ -595,7 +595,7 @@ header {
   font-size: 17px;
   margin-bottom: 10px;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
 }
 
 .content {
@@ -615,7 +615,7 @@ header {
   font-size: 50px;
   margin-bottom: 13px;
 
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
   letter-spacing: 2px;
 }
 
@@ -633,7 +633,7 @@ header {
   font-size: 17px;
   color: gray;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
 }
 
 .content h1 {
@@ -641,7 +641,7 @@ header {
   font-size: 50px;
   margin-bottom: 24px;
 
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
   letter-spacing: 1px;
 }
 
@@ -661,7 +661,7 @@ header {
 
   width: 45%;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
 }
 
 .contain-2 {
@@ -703,7 +703,7 @@ header {
 
 .card h1 {
   font-size: 38px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 
   letter-spacing: 1px;
   transition: 0.3s ease;
@@ -721,7 +721,7 @@ header {
   font-size: 15px;
   color: grey;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
 }
 
 .web-logo {
@@ -843,7 +843,7 @@ header {
 
 .project-det h1 {
   font-size: 50px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 
   background:
     radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
@@ -858,7 +858,7 @@ header {
 
 .project-det-b h1 {
   font-size: 50px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 
   background:
     radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
@@ -874,19 +874,19 @@ header {
 .project-num {
   color: gray;
   font-size: 20px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 }
 
 .project-num-b {
   color: gray;
   font-size: 20px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 }
 
 .project-p {
   position: relative;
   color: gray;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 
   margin-top: 10px;
 }
@@ -906,7 +906,7 @@ header {
 .project-p-b {
   position: relative;
   color: gray;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 
   width: 90%;
   margin-top: 10px;
@@ -926,7 +926,7 @@ header {
 
 .project-det a {
   color: white;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 
   margin-top: 30px;
   font-size: 20px;
@@ -948,7 +948,7 @@ header {
 
 .project-det-b a {
   color: white;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 
   margin-top: 30px;
   font-size: 20px;
@@ -998,7 +998,7 @@ header {
 }
 
 .about-fel h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
   font-size: 50px;
   margin-bottom: 10px;
 
@@ -1012,7 +1012,7 @@ header {
 }
 
 .about-fel p {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
   color: rgb(190, 184, 184);
   font-size: 18px;
   letter-spacing: 1.5px;
@@ -1020,7 +1020,7 @@ header {
 
 .quick-link h1 {
   color: white;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 }
 
 .quick-nav a {
@@ -1034,7 +1034,7 @@ header {
   transition: 0.3s ease;
 
   color: #ffffff;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 }
 
 .quick-nav a:hover {
@@ -1048,12 +1048,12 @@ header {
 .contact-me h1 {
   margin-bottom: 10px;
   color: white;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 }
 
 .contact-me p {
   color: rgb(190, 184, 184);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: var(--main-font);
 }
 
 .email {
