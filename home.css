@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-font: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --secondary-font: Arial Rounded mt;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -77,14 +82,14 @@ header {
 
 .links a {
   text-decoration: none;
-  color: rgb(205, 201, 201);
+  color: grey;
 
   padding: 13px;
 
   border-radius: 20px;
 
   font-size: 15px;
-  font-family: Arial Rounded mt;
+  font-family: var(--main-font);
 
   transition: 0.3s;
 }
@@ -139,7 +144,8 @@ header {
 .name {
   font-size: 75px;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--main-font);
+  letter-spacing: 2px;
 
   color: white;
   font-weight: bolder;
@@ -171,7 +177,8 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--main-font);
+  letter-spacing: 2px;
   font-weight: bolder;
   display: flex;
   justify-content: flex-start;
@@ -194,7 +201,7 @@ header {
   display: flex;
   justify-content: start;
   font-size: 20px;
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
   font-weight: bolder;
 
   background:
@@ -229,7 +236,7 @@ header {
 
 .message {
   color: rgb(141, 140, 140);
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
   font-weight: bolder;
   letter-spacing: 0.5px;
   font-size: 20px;
@@ -268,7 +275,7 @@ header {
   font-size: 20px;
   font-weight: 900;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
 
   margin-right: 40px;
   padding: 12px;
@@ -292,10 +299,10 @@ header {
   color: white;
   font-weight: 900;
 
-  border: 2px solid #43d9ff;
+  border: 2px solid #7c6cff;
   font-size: 20px;
 
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
 
   padding: 12px;
   padding-left: 40px;
@@ -445,11 +452,16 @@ header {
   font-size: 75px;
   margin-bottom: 40px;
   color: white;
+  letter-spacing: 3px;
+
+  font-family: var(--main-font);
 }
 
 .head2 {
   font-size: 22px;
   margin-bottom: 40px;
+  font-family: var(--main-font);
+  letter-spacing: 1.8px;
 
   color: white;
 }
@@ -468,9 +480,8 @@ header {
   margin-top: 30px;
 }
 
-.info-me h1,
 .info-me p {
-  font-family: Arial Rounded mt;
+  font-family: var(--secondary-font);
 }
 
 .my-pic {
@@ -496,6 +507,7 @@ header {
 }
 
 .blue-col {
+  font-family: var(--main-font);
   background:
     radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
     radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
