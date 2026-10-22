@@ -1453,7 +1453,10 @@ footer p {
   }
 
   .project-pic-1,
-  .project-pic-b-2 {
+  .project-pic-b-2,
+  .project-pic-2,
+  .project-pic-b-3,
+  .project-pic-3 {
     min-height: 180px;
   }
 
@@ -1528,7 +1531,10 @@ footer p {
   }
 
   .project-pic-1,
-  .project-pic-b-2 {
+  .project-pic-b-2,
+  .project-pic-2,
+  .project-pic-b-3,
+  .project-pic-3 {
     min-height: 180px;
   }
 
@@ -1617,7 +1623,10 @@ footer p {
   }
 
   .project-pic-1,
-  .project-pic-b-2 {
+  .project-pic-b-2,
+  .project-pic-2,
+  .project-pic-b-3,
+  .project-pic-3 {
     min-height: 180px;
   }
 
