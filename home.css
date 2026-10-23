@@ -14,10 +14,13 @@ html {
 }
 
 .radial {
-  background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff6e, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7d6cff76, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff6e, transparent 80%);
+  background: radial-gradient(
+    circle at 50% 20%,
+    #ff4d8e80 0%,
+    #ff8b6170 30%,
+    #4a1942 60%,
+    #090b1a 100%
+  );
 }
 
 .intro {
@@ -170,9 +173,9 @@ header {
   font-size: 75px;
 
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e80, transparent 100%),
     radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #3099b3, transparent 80%);
+    radial-gradient(circle 400px at 90% 0%, #ff8b6170, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -205,14 +208,14 @@ header {
   font-weight: bolder;
 
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e80, transparent 100%),
     radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #3099b3, transparent 80%);
+    radial-gradient(circle 400px at 90% 0%, #ff8b6170, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  background-color: rgba(87, 85, 85, 0.183);
+  background-color: rgba(87, 85, 85, 1);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
 
@@ -267,9 +270,9 @@ header {
 .btn1 {
   text-decoration: none;
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e80, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff4d8e80, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff8b6170, transparent 80%);
 
   color: white;
   font-size: 20px;
@@ -289,7 +292,7 @@ header {
 }
 
 .btn1:hover {
-  box-shadow: 0 0 40px #7c6cff;
+  box-shadow: 0 0 40px #ff8b6170;
   color: black;
 }
 
@@ -299,7 +302,7 @@ header {
   color: white;
   font-weight: 900;
 
-  border: 2px solid #7c6cff;
+  border: 2px solid #ff8b6170;
   font-size: 20px;
 
   font-family: var(--secondary-font);
@@ -315,9 +318,9 @@ header {
 }
 
 .btn:hover {
-  background-color: #7c6cff;
+  background-color: #ff8b6170;
   color: black;
-  box-shadow: 0 0 40px #7c6cff;
+  box-shadow: 0 0 40px #ff8b6170;
 }
 
 .aside {
@@ -357,8 +360,8 @@ header {
 
 .pic:hover {
   transform: scale(1.04);
-  border: 1px solid #7c6cff;
-  box-shadow: 0 0 80px #7c6cff;
+  border: 1px solid #ff4d8e;
+  box-shadow: 0 0 80px #ff4d8e;
 
   object-fit: fill;
 }
@@ -399,7 +402,7 @@ header {
   min-height: 100dvh;
   background: radial-gradient(
     circle 250px at 0% 55%,
-    #43d9ff54,
+    #ff8b6170,
     transparent 100%
   );
 }
@@ -443,9 +446,12 @@ header {
   bottom: 100%;
 
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 400px at 50% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 90% 0%, #c46cffe1, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e8e, transparent 100%),
+    radial-gradient(circle 400px at 50% 0%, #ff4d8e8e, transparent 100%),
+    radial-gradient(circle 400px at 30% 0%, #ff4d8e8e, transparent 100%),
+    radial-gradient(circle 400px at 20% 0%, #ff4d8e8e, transparent 100%),
+    radial-gradient(circle 300px at 90% 0%, #ff8b6170, transparent 80%),
+    radial-gradient(circle 300px at 100% 0%, #ff8b6170, transparent 80%);
 }
 
 .head1 {
@@ -494,7 +500,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 
-  border: 2px solid #7c6cff;
+  border: 2px solid #ff4d8e8e;
 
   transition: 0.3s ease;
   border-radius: 20px;
@@ -502,16 +508,16 @@ header {
 
 .my-pic:hover {
   transform: scale(1.04);
-  border: 1px solid #7c6cff;
-  box-shadow: 0 0 80px #7c6cff;
+  border: 1px solid #ff4d8e;
+  box-shadow: 0 0 80px #ff4d8e;
 }
 
 .blue-col {
   font-family: var(--main-font);
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e8e, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff8b6170, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff4d8e8e, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -537,9 +543,9 @@ header {
   min-height: 130dvh;
 
   background:
-    radial-gradient(circle 400px at 0% 55%, #43d9ff8c, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7d6cff6f, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff8d, transparent 80%);
+    radial-gradient(circle 400px at 0% 55%, #ff4d8e8e, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff8b6170, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff4d8e8e, transparent 80%);
 }
 
 .back-design-2 {
@@ -552,9 +558,9 @@ header {
   min-height: 200dvh;
 
   background:
-    radial-gradient(circle 400px at 0% 50%, #43d9ff6e, transparent 100%),
-    radial-gradient(circle 300px at 50% 100%, #7d6cff58, transparent 80%),
-    radial-gradient(circle 400px at 90% 20%, #43d9ff6e, transparent 80%);
+    radial-gradient(circle 400px at 0% 50%, #ff4d8e8e, transparent 100%),
+    radial-gradient(circle 300px at 50% 100%, #ff8b6170, transparent 80%),
+    radial-gradient(circle 400px at 90% 20%, #ff4d8e8e, transparent 80%);
 }
 
 .main-content {
@@ -564,10 +570,10 @@ header {
   padding-bottom: 50px;
   width: 85%;
 
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 77, 142, 0.167);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  background-color: rgba(80, 200, 220, 0.12);
+  background-color: rgba(255, 77, 142, 0.167);
   backdrop-filter: blur(12px) saturate(150%);
   -webkit-backdrop-filter: blur(12px) saturate(150%);
 }
@@ -581,10 +587,10 @@ header {
 
   margin-bottom: 50px;
 
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 77, 142, 0.167);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  background-color: rgba(80, 200, 220, 0.12);
+  background-color: rgba(255, 77, 142, 0.167);
   backdrop-filter: blur(12px) saturate(150%);
   -webkit-backdrop-filter: blur(12px) saturate(150%);
 }
@@ -621,9 +627,9 @@ header {
 
 .radial-felic {
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #3099b3, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e80, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff8b6170, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff4d8e80, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -647,9 +653,9 @@ header {
 
 .fukos {
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #3099b3, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e80, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff8b6170, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff4d8e80, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -671,11 +677,11 @@ header {
 }
 
 .card {
-  background-color: rgba(20, 35, 55, 0.55);
+  background-color: rgba(255, 77, 142, 0);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
 
-  border: 1px solid rgba(128, 128, 128, 0.68);
+  border: 1px solid #ff8b6170;
   border-radius: 20px;
   padding: 35px;
   padding-top: 0;
@@ -697,8 +703,8 @@ header {
 
 .card:hover {
   transform: scale(1.04);
-  border: 1px solid #7c6cff;
-  box-shadow: 0 0 40px #7d6cffab;
+  border: 1px solid #ff8b6170;
+  box-shadow: 0 0 40px #ff8b6170;
 }
 
 .card h1 {
@@ -709,9 +715,9 @@ header {
   transition: 0.3s ease;
 
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 50%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 60%);
+    radial-gradient(circle 400px at 0% 0%, #ff8b6170, transparent 50%),
+    radial-gradient(circle 300px at 40% 50%, #ff4d8e80, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff8b6170, transparent 60%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -769,8 +775,7 @@ header {
 
 .project-pic-1:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgba(0, 81, 128, 0.626);
+  box-shadow: 0 0 80px #ff8b61;
 }
 
 .project-pic-2 {
@@ -787,8 +792,7 @@ header {
 
 .project-pic-2:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgba(0, 81, 128, 0.626);
+  box-shadow: 0 0 80px #ff8b61;
 }
 
 .project-pic-3 {
@@ -805,14 +809,12 @@ header {
 
 .project-pic-3:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgba(0, 81, 128, 0.626);
+  box-shadow: 0 0 80px #ff8b61;
 }
 
 .project-pic:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgba(0, 81, 128, 0.626);
+  box-shadow: 0 0 80px #ff8b61;
 }
 
 .project-pic-b {
@@ -842,8 +844,7 @@ header {
 
 .project-pic-b-2:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgba(119, 0, 128, 0.591);
+  box-shadow: 0 0 80px #ff8b61;
 }
 
 .project-pic-b-3 {
@@ -863,14 +864,12 @@ header {
 
 .project-pic-b-3:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgba(119, 0, 128, 0.591);
+  box-shadow: 0 0 80px #ff8b61;
 }
 
 .project-pic-b:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(60, 0, 128);
-  box-shadow: 0 0 80px rgba(119, 0, 128, 0.591);
+  box-shadow: 0 0 80px #ff8b61;
 }
 
 .project-det {
@@ -903,9 +902,9 @@ header {
   font-family: var(--main-font);
 
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e80, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff8b61, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff4d8e80, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -918,9 +917,9 @@ header {
   font-family: var(--main-font);
 
   background:
-    radial-gradient(circle 400px at 0% 0%, #43d9ff, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7c6cff, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff, transparent 80%);
+    radial-gradient(circle 400px at 0% 0%, #ff4d8e80, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff8b61, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff4d8e80, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -957,7 +956,7 @@ header {
   width: 8%;
   bottom: 65px;
 
-  background-color: #7c6cff;
+  background-color: #ff8b61;
 }
 
 .project-p-b {
@@ -978,7 +977,7 @@ header {
   width: 8%;
   bottom: 65px;
 
-  background-color: #7c6cff;
+  background-color: #ff8b61;
 }
 
 .project-det a {
@@ -989,7 +988,7 @@ header {
   font-size: 20px;
   text-decoration: none;
 
-  border: 1px solid #43d9ff;
+  border: 1px solid #ff8b61;
 
   width: 25%;
   text-align: center;
@@ -1011,7 +1010,7 @@ header {
   font-size: 20px;
   text-decoration: none;
 
-  border: 1px solid #43d9ff;
+  border: 1px solid #ff8b61;
   width: 25%;
   text-align: center;
 
@@ -1039,7 +1038,7 @@ header {
 
 .contactus {
   background: rgba(20, 20, 24, 0.92);
-  border-top: 1px solid rgba(128, 128, 128, 0.447);
+  border-top: 1px solid #ff4d8e;
 
   padding: 30px;
 
@@ -1060,9 +1059,9 @@ header {
   margin-bottom: 10px;
 
   background:
-    radial-gradient(circle 400px at 0% 55%, #43d9ff8c, transparent 100%),
-    radial-gradient(circle 300px at 40% 50%, #7d6cff6f, transparent 80%),
-    radial-gradient(circle 400px at 90% 0%, #43d9ff8d, transparent 80%);
+    radial-gradient(circle 400px at 0% 55%, #ff4d8e80, transparent 100%),
+    radial-gradient(circle 300px at 40% 50%, #ff8b6170, transparent 80%),
+    radial-gradient(circle 400px at 90% 0%, #ff4d8e80, transparent 80%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
